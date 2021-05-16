@@ -201,3 +201,50 @@ footer{
     padding: 30px;
 }
 
+
+@media (max-width: 946px) {
+    .column1{
+        width: 100%;
+        margin-top: 0;
+    }
+    .column2 img{
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    
+    nav .menu{
+        
+    }
+    .text{
+        font-size: 60px;
+        bottom: 250px;
+    }
+    
+    .slideshow-container p{
+        font-size: 15px;
+        letter-spacing: 1px;
+        bottom: 200px;
+    }
+}
+
+@media (max-width: 450px) {
+    .text{
+        font-size: 40px;
+        bottom: 160px;
+    }
+    
+    .slideshow-container p{
+        font-size: 10px;
+        letter-spacing: 1px;
+        bottom: 110px;
+    }
+}
+
+@media (max-width: 425px) {
+    .column1{
+        width: 425px;
+        margin-top: 0;
+    }
+}
