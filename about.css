@@ -1,0 +1,210 @@
+body{
+    background: rgb(230, 203, 169);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav .menu{
+    position: absolute;
+    box-sizing: border-box;
+    display: flex;
+    margin-top: -120px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+
+ul li a:hover{
+    color: #777;
+}
+
+.container img{
+    border-radius: 200px;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+}
+
+.container h3{
+    text-align: center;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.container p{
+    text-align: center;
+    font-weight: 500;
+    padding: 10px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    box-sizing: border-box;
+    position: relative;
+    margin: auto;
+}
+  
+  /* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+
+  
+  /* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+  
+  /* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+  
+  /* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 50px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.slideshow-container p{
+    color: #f2f2f2;
+    font-size: 15px;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+  
+  /* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+  
+.active, .dot:hover {
+    background-color: yellow;
+}
+  
+  /* Fading animation */
+.fade {
+    -webkit-animation-name: fader;
+    -webkit-animation-duration: 2s;
+    animation-name: fader;
+    animation-duration: 2s;
+}
+  
+@-webkit-keyframes fader {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+  
+@keyframes fader {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
+.contact{
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 90px;
+    background: rgb(70, 104, 36);
+}
+
+h2{
+    margin-top: 40px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+form input{
+    border: none;
+    border-bottom: 1px solid #fff;
+    height: 30px;
+    width: 250px;
+    font-family: cursive;
+    background: rgb(70, 104, 36);
+}
+form button{
+    padding: 10px;
+    width: 200px;
+    cursor: pointer;
+    color: #fff;
+    background: #000;
+    border: none;
+    border-radius: 50px;
+}
+form textarea{
+    border: none;
+    border-bottom: 1px solid #fff;
+    height: 30px;
+    width: 250px;
+    font-family: cursive;
+    background: rgb(70, 104, 36);
+}
+
+footer{
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    margin-top: 30px;
+    color: #fff;
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
+
